@@ -155,15 +155,17 @@ main .container-centered .card .product-info .product-price .old-price {
 
 /* footer */
 footer {
-    height: 200px;
-    background-color: brown;
-    /* debug */
+    background-color: #202020;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
 
 footer .container-centered {
-    background-color: rgb(112, 28, 28);
-    height: 100%;
-    /* debug */
+    padding: 2em 0;
 
     display: flex;
     flex-flow: row nowrap;
@@ -172,14 +174,32 @@ footer .container-centered {
 }
 
 footer .container-centered #info-box {
-    background-color: rgb(56, 14, 14);
-    width: 300px;
-    height: 100px;
+}
+
+footer .container-centered #info-box h2 {
+    margin-bottom: 0.5em;
+    font-size: 1em;
+}
+
+footer .container-centered #info-box #footer-links {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1em;
+    
+    font-size: 0.8em;
 }
 
 footer .container-centered #social-box {
-    background-color: rgb(56, 14, 14);
-    width: 300px;
-    height: 100px;
+}
+
+footer .container-centered #social-box h2 {
+    margin-bottom: 0.5em;
+    font-size: 0.8em;
+}
+
+footer .container-centered #social-box #social-links {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.5em;
 }
 /* /footer */
