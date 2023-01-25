@@ -16,6 +16,11 @@ header {
     color: white;
 }
 
+header a {
+    color: white;
+    text-decoration: none;
+}
+
 header .container-centered {
     height: 100%;
 
@@ -25,9 +30,14 @@ header .container-centered {
     align-items: center;
 }
 
-header .container-centered a {
-    color: white;
-    text-decoration: none;
+header .container-centered nav {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1em;
+}
+
+header .container-centered nav a h1 {
+    font-size: 1em;
 }
 
 header .container-centered #container-logo img {
