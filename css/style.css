@@ -37,15 +37,10 @@ header .container-centered #function img {
 
 /* main */
 main {
-    background-color: red;
-    /* debug */
+    padding: 2em;
 }
 
 main .container-centered {
-    padding: 2em 0;
-    background-color: rgb(197, 0, 0);
-    height: 100%;
-    /* debug */
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -53,10 +48,66 @@ main .container-centered {
 }
 
 main .container-centered .card {
-    background-color: rgb(150, 0, 0);
-    /* debug */
     width: 30%;
-    height: 400px;
+    height: 500px;
+    position: relative;
+}
+
+main .container-centered .card img {
+    width: 100%;
+}
+
+main .container-centered .card .alternative-img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+main .container-centered .card:hover .alternative-img {
+    display: block;
+}
+
+main .container-centered .card .on-photo {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+
+    color: white;
+    font-size: 0.8em;
+}
+
+main .container-centered .card .on-photo .sale {
+    padding: 0.5em;
+
+    background-color: red;
+}
+
+main .container-centered .card .on-photo .sustain {
+    padding: 0.5em;
+
+    background-color: green;
+}
+
+main .container-centered .card .product-info .product-brand {
+    font-size: 0.8em;
+}
+
+main .container-centered .card .product-info .product-name {
+    font-weight: bold;
+}
+
+main .container-centered .card .product-info .product-price {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: red;
+}
+
+main .container-centered .card .product-info .product-price .old-price {
+    font-weight: normal;
+    text-decoration: line-through;
+    color: black;
 }
 /* /main */
 
