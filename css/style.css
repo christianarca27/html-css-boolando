@@ -75,13 +75,13 @@ footer .container-centered {
     align-items: center;
 }
 
-footer .container-centered .info-box {
+footer .container-centered #info-box {
     background-color: rgb(56, 14, 14);
     width: 300px;
     height: 100px;
 }
 
-footer .container-centered .social-box {
+footer .container-centered #social-box {
     background-color: rgb(56, 14, 14);
     width: 300px;
     height: 100px;
