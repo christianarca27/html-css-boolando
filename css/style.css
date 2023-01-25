@@ -47,6 +47,8 @@ main .container-centered {
     gap: 10px;
 }
 
+/* card */
+/* card picture */
 main .container-centered .card {
     width: 30%;
     height: 500px;
@@ -78,6 +80,23 @@ main .container-centered .card .on-photo {
     font-size: 0.8em;
 }
 
+main .container-centered .card .liked {
+    width: 1em;
+    height: 1em;
+    background-color: white;
+
+    position: absolute;
+    top: 10px;
+    right: 0;
+
+    font-size: 2em;
+    text-align: center;
+}
+
+main .container-centered .card .liked:hover {
+    color: red;
+}
+
 main .container-centered .card .on-photo .sale {
     padding: 0.5em;
 
@@ -89,7 +108,9 @@ main .container-centered .card .on-photo .sustain {
 
     background-color: green;
 }
+/* /card picture */
 
+/* card-info */
 main .container-centered .card .product-info .product-brand {
     font-size: 0.8em;
 }
@@ -109,6 +130,8 @@ main .container-centered .card .product-info .product-price .old-price {
     text-decoration: line-through;
     color: black;
 }
+/* /card-info */
+/* /card */
 /* /main */
 
 /* footer */
