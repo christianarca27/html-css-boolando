@@ -77,20 +77,20 @@ main .container-centered .card .card-img-wrapper {
     position: relative;
 }
 
-main .container-centered .card img {
+main .container-centered .card .card-img-wrapper:hover .alternative-img {
+    display: block;
+}
+
+main .container-centered .card .card-img-wrapper img {
     width: 100%;
 }
 
-main .container-centered .card .alternative-img {
+main .container-centered .card .card-img-wrapper .alternative-img {
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     display: none;
-}
-
-main .container-centered .card:hover .alternative-img {
-    display: block;
 }
 
 main .container-centered .card .on-photo {
