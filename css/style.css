@@ -111,6 +111,10 @@ main .container-centered .card .liked {
     top: 5%;
     right: 0;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     font-size: 2em;
     text-align: center;
 }
