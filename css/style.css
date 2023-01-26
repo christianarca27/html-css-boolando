@@ -94,11 +94,11 @@ main .container-centered .card:hover .alternative-img {
 
 main .container-centered .card .on-photo {
     position: absolute;
-    top: 75%;
+    top: 85%;
     left: 0;
 
     color: white;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 main .container-centered .card .liked {
